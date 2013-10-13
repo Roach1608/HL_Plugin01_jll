@@ -1,0 +1,12 @@
+2013-10-05 19:40:13 [INFO] Starting minecraft server version 1.6.2
+2013-10-05 19:40:13 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2013-10-05 19:40:13 [INFO] Loading properties
+2013-10-05 19:40:13 [WARNING] server.properties does not exist
+2013-10-05 19:40:13 [INFO] Generating new properties file
+2013-10-05 19:40:13 [INFO] Default game type: SURVIVAL
+2013-10-05 19:40:13 [INFO] Generating keypair
+2013-10-05 19:40:13 [INFO] Starting Minecraft server on *:25565
+2013-10-05 19:40:13 [WARNING] **** FAILED TO BIND TO PORT!
+2013-10-05 19:40:13 [WARNING] The exception was: java.net.BindException: Address already in use
+2013-10-05 19:40:13 [WARNING] Perhaps a server is already running on that port?
+2013-10-05 19:42:54 [INFO] Stopping server

@@ -1,0 +1,185 @@
+2013-10-05 19:42:08 [INFO] Starting minecraft server version 1.6.2
+2013-10-05 19:42:08 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2013-10-05 19:42:08 [INFO] Loading properties
+2013-10-05 19:42:08 [WARNING] server.properties does not exist
+2013-10-05 19:42:08 [INFO] Generating new properties file
+2013-10-05 19:42:08 [INFO] Default game type: SURVIVAL
+2013-10-05 19:42:08 [INFO] Generating keypair
+2013-10-05 19:42:08 [INFO] Starting Minecraft server on *:25565
+2013-10-05 19:42:08 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-b2879jnks (MC: 1.6.2) (Implementing API version 1.6.2-R1.0)
+2013-10-05 19:42:08 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
+2013-10-05 19:42:08 [WARNING] Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
+2013-10-05 19:42:08 [INFO] Preparing level "world"
+2013-10-05 19:42:08 [INFO] Preparing start region for level 0 (Seed: -5049224668132830243)
+2013-10-05 19:42:09 [INFO] Preparing spawn area: 12%
+2013-10-05 19:42:10 [INFO] Preparing spawn area: 28%
+2013-10-05 19:42:11 [INFO] Preparing spawn area: 48%
+2013-10-05 19:42:12 [INFO] Preparing spawn area: 71%
+2013-10-05 19:42:13 [INFO] Preparing spawn area: 96%
+2013-10-05 19:42:14 [INFO] Preparing start region for level 1 (Seed: -5049224668132830243)
+2013-10-05 19:42:15 [INFO] Preparing spawn area: 21%
+2013-10-05 19:42:16 [INFO] Preparing spawn area: 37%
+2013-10-05 19:42:17 [INFO] Preparing spawn area: 55%
+2013-10-05 19:42:18 [INFO] Preparing spawn area: 70%
+2013-10-05 19:42:19 [INFO] Preparing spawn area: 88%
+2013-10-05 19:42:20 [INFO] Preparing spawn area: 93%
+2013-10-05 19:42:21 [INFO] Preparing spawn area: 97%
+2013-10-05 19:43:47 [INFO] Starting minecraft server version 1.6.2
+2013-10-05 19:43:47 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2013-10-05 19:43:47 [INFO] Loading properties
+2013-10-05 19:43:47 [INFO] Default game type: SURVIVAL
+2013-10-05 19:43:47 [INFO] Generating keypair
+2013-10-05 19:43:48 [INFO] Starting Minecraft server on *:25565
+2013-10-05 19:43:48 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-b2879jnks (MC: 1.6.2) (Implementing API version 1.6.2-R1.0)
+2013-10-05 19:43:48 [INFO] Preparing level "world"
+2013-10-05 19:43:48 [INFO] Preparing start region for level 0 (Seed: -5049224668132830243)
+2013-10-05 19:43:49 [INFO] Preparing spawn area: 8%
+2013-10-05 19:43:50 [INFO] Preparing spawn area: 23%
+2013-10-05 19:43:51 [INFO] Preparing spawn area: 42%
+2013-10-05 19:43:52 [INFO] Preparing spawn area: 59%
+2013-10-05 19:43:53 [INFO] Preparing spawn area: 82%
+2013-10-05 19:43:54 [INFO] Preparing start region for level 1 (Seed: 2467565591104370336)
+2013-10-05 19:43:55 [INFO] Preparing spawn area: 21%
+2013-10-05 19:43:56 [INFO] Preparing spawn area: 38%
+2013-10-05 19:43:57 [INFO] Preparing spawn area: 52%
+2013-10-05 19:43:58 [INFO] Preparing spawn area: 67%
+2013-10-05 19:43:59 [INFO] Preparing spawn area: 82%
+2013-10-05 19:44:00 [INFO] Preparing spawn area: 94%
+2013-10-05 19:44:01 [INFO] Preparing spawn area: 99%
+2013-10-05 19:44:37 [SEVERE] net.minecraft.server.v1_6_R2.ReportedException: Exception generating new chunk
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:119)
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:84)
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.MinecraftServer.f(MinecraftServer.java:285)
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.MinecraftServer.a(MinecraftServer.java:250)
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.DedicatedServer.init(DedicatedServer.java:151)
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.MinecraftServer.run(MinecraftServer.java:391)
+2013-10-05 19:44:38 [SEVERE] 	at net.minecraft.server.v1_6_R2.ThreadServerApplication.run(SourceFile:582)
+2013-10-05 19:44:38 [SEVERE] Caused by: java.lang.OutOfMemoryError: Java heap space
+2013-10-05 19:44:39 [SEVERE] 	at net.minecraft.server.v1_6_R2.NibbleArray.<init>(SourceFile:9)
+2013-10-05 19:44:39 [SEVERE] 	at net.minecraft.server.v1_6_R2.ChunkSection.<init>(ChunkSection.java:17)
+2013-10-05 19:44:39 [SEVERE] 	at net.minecraft.server.v1_6_R2.Chunk.<init>(Chunk.java:80)
+2013-10-05 19:44:39 [SEVERE] 	at net.minecraft.server.v1_6_R2.ChunkProviderHell.getOrCreateChunk(SourceFile:201)
+2013-10-05 19:44:39 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R2.generator.NormalChunkGenerator.getOrCreateChunk(NormalChunkGenerator.java:41)
+2013-10-05 19:44:39 [SEVERE] 	at net.minecraft.server.v1_6_R2.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:111)
+2013-10-05 19:44:39 [SEVERE] 	... 6 more
+2013-10-05 19:44:39 [SEVERE] Encountered an unexpected exception ReportedException
+net.minecraft.server.v1_6_R2.ReportedException: Exception generating new chunk
+	at net.minecraft.server.v1_6_R2.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:119)
+	at net.minecraft.server.v1_6_R2.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:84)
+	at net.minecraft.server.v1_6_R2.MinecraftServer.f(MinecraftServer.java:285)
+	at net.minecraft.server.v1_6_R2.MinecraftServer.a(MinecraftServer.java:250)
+	at net.minecraft.server.v1_6_R2.DedicatedServer.init(DedicatedServer.java:151)
+	at net.minecraft.server.v1_6_R2.MinecraftServer.run(MinecraftServer.java:391)
+	at net.minecraft.server.v1_6_R2.ThreadServerApplication.run(SourceFile:582)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at net.minecraft.server.v1_6_R2.NibbleArray.<init>(SourceFile:9)
+	at net.minecraft.server.v1_6_R2.ChunkSection.<init>(ChunkSection.java:17)
+	at net.minecraft.server.v1_6_R2.Chunk.<init>(Chunk.java:80)
+	at net.minecraft.server.v1_6_R2.ChunkProviderHell.getOrCreateChunk(SourceFile:201)
+	at org.bukkit.craftbukkit.v1_6_R2.generator.NormalChunkGenerator.getOrCreateChunk(NormalChunkGenerator.java:41)
+	at net.minecraft.server.v1_6_R2.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:111)
+	... 6 more
+2013-10-05 19:44:42 [SEVERE] Could not save crash report to ./crash-reports/crash-2013-10-05_19.44.40-server.txt
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2882)
+	at java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:100)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:390)
+	at java.lang.StringBuilder.append(StringBuilder.java:119)
+	at net.minecraft.server.v1_6_R2.CrashReportSystemDetails.a(SourceFile:126)
+	at net.minecraft.server.v1_6_R2.CrashReport.a(CrashReport.java:78)
+	at net.minecraft.server.v1_6_R2.CrashReport.e(CrashReport.java:129)
+	at net.minecraft.server.v1_6_R2.CrashReport.a(CrashReport.java:144)
+	at net.minecraft.server.v1_6_R2.MinecraftServer.run(MinecraftServer.java:441)
+	at net.minecraft.server.v1_6_R2.ThreadServerApplication.run(SourceFile:582)
+2013-10-05 19:44:42 [SEVERE] We were unable to save this crash report to disk.
+2013-10-05 19:45:25 [INFO] Unknown command. Type "help" for help.[m
+2013-10-05 19:45:30 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2013-10-05 19:45:31 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2013-10-05 19:45:47 [WARNING] Unexpected exception while parsing console command "help 1"
+org.bukkit.command.CommandException: Unhandled exception executing 'help 1' in org.bukkit.command.defaults.HelpCommand(help)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:196)
+	at org.bukkit.craftbukkit.v1_6_R2.CraftServer.dispatchCommand(CraftServer.java:523)
+	at org.bukkit.craftbukkit.v1_6_R2.CraftServer.dispatchServerCommand(CraftServer.java:512)
+	at net.minecraft.server.v1_6_R2.DedicatedServer.ar(DedicatedServer.java:262)
+	at net.minecraft.server.v1_6_R2.DedicatedServer.a(DedicatedServer.java:204)
+	at net.minecraft.server.v1_6_R2.MinecraftServer.run(MinecraftServer.java:447)
+	at net.minecraft.server.v1_6_R2.ThreadServerApplication.run(SourceFile:582)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2786)
+	at sun.misc.Resource.getBytes(Resource.java:101)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:257)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.apache.commons.lang.math.NumberUtils.isDigits(NumberUtils.java:1342)
+	at org.bukkit.command.defaults.HelpCommand.execute(HelpCommand.java:46)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	... 6 more
+2013-10-05 19:46:39 [INFO] Starting minecraft server version 1.6.2
+2013-10-05 19:46:39 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2013-10-05 19:46:39 [INFO] Loading properties
+2013-10-05 19:46:39 [INFO] Default game type: SURVIVAL
+2013-10-05 19:46:39 [INFO] Generating keypair
+2013-10-05 19:46:39 [INFO] Starting Minecraft server on *:25565
+2013-10-05 19:46:39 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-b2879jnks (MC: 1.6.2) (Implementing API version 1.6.2-R1.0)
+2013-10-05 19:46:39 [INFO] Preparing level "world"
+2013-10-05 19:46:39 [INFO] Preparing start region for level 0 (Seed: -5049224668132830243)
+2013-10-05 19:46:40 [INFO] Preparing spawn area: 9%
+2013-10-05 19:46:41 [INFO] Preparing spawn area: 23%
+2013-10-05 19:46:42 [INFO] Preparing spawn area: 42%
+2013-10-05 19:46:43 [INFO] Preparing spawn area: 61%
+2013-10-05 19:46:44 [INFO] Preparing spawn area: 85%
+2013-10-05 19:46:45 [INFO] Preparing start region for level 1 (Seed: -8261329558148815250)
+2013-10-05 19:46:46 [INFO] Preparing spawn area: 25%
+2013-10-05 19:46:47 [INFO] Preparing spawn area: 44%
+2013-10-05 19:46:48 [INFO] Preparing spawn area: 62%
+2013-10-05 19:46:49 [INFO] Preparing spawn area: 79%
+2013-10-05 19:46:50 [INFO] Preparing spawn area: 93%
+2013-10-05 19:46:51 [INFO] Preparing spawn area: 98%
+2013-10-05 19:46:52 [INFO] Preparing spawn area: 99%
+2013-10-05 19:47:41 [INFO] Starting minecraft server version 1.6.2
+2013-10-05 19:47:41 [INFO] Loading properties
+2013-10-05 19:47:41 [INFO] Default game type: SURVIVAL
+2013-10-05 19:47:41 [INFO] Generating keypair
+2013-10-05 19:47:41 [INFO] Starting Minecraft server on *:25565
+2013-10-05 19:47:42 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-b2879jnks (MC: 1.6.2) (Implementing API version 1.6.2-R1.0)
+2013-10-05 19:47:42 [INFO] Preparing level "world"
+2013-10-05 19:47:42 [INFO] Preparing start region for level 0 (Seed: -5049224668132830243)
+2013-10-05 19:47:43 [INFO] Preparing spawn area: 9%
+2013-10-05 19:47:44 [INFO] Preparing spawn area: 23%
+2013-10-05 19:47:45 [INFO] Preparing spawn area: 42%
+2013-10-05 19:47:46 [INFO] Preparing spawn area: 62%
+2013-10-05 19:47:47 [INFO] Preparing spawn area: 86%
+2013-10-05 19:47:47 [INFO] Preparing start region for level 1 (Seed: -4022127322914488239)
+2013-10-05 19:47:49 [INFO] Preparing spawn area: 18%
+2013-10-05 19:47:50 [INFO] Preparing spawn area: 34%
+2013-10-05 19:47:51 [INFO] Preparing spawn area: 56%
+2013-10-05 19:47:52 [INFO] Preparing spawn area: 79%
+2013-10-05 19:47:53 [INFO] Preparing spawn area: 98%
+2013-10-05 19:47:53 [INFO] Preparing start region for level 2 (Seed: -4022127322914488239)
+2013-10-05 19:47:54 [INFO] Preparing spawn area: 60%
+2013-10-05 19:47:54 [INFO] Done (12,507s)! For help, type "help" or "?"
+2013-10-05 19:48:42 [INFO] Roach_1608[/127.0.0.1:53542] logged in with entity id 4449 at ([world] 64.5, 68.0, 251.5)
+2013-10-05 19:48:49 [INFO] Roach_1608 issued server command: /day
+2013-10-05 19:49:50 [INFO] Roach_1608 issued server command: /ct azerty
+2013-10-05 19:50:08 [INFO] Roach_1608 issued server command: /plugin
+2013-10-05 20:20:58 [INFO] Roach_1608 was slain by Zombie
+2013-10-05 20:50:05 [INFO] Roach_1608 issued server command: /plugins
+2013-10-05 20:51:42 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-05 20:51:42 [INFO] CONSOLE: [0;32;1mReload complete.[m
+2013-10-05 20:53:44 [INFO] Unknown command. Type "help" for help.[m
+2013-10-05 20:54:55 [INFO] CONSOLE: Stopping the server..[m
+2013-10-05 20:54:55 [INFO] Stopping server
+2013-10-05 20:54:55 [INFO] Saving players
+2013-10-05 20:54:55 [WARNING] DSCT: Socket closed
+2013-10-05 20:54:55 [INFO] Closing listening thread
+2013-10-05 20:54:55 [INFO] ¤eRoach_1608 left the game.
+2013-10-05 20:54:55 [INFO] Saving worlds
+2013-10-05 20:54:55 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-05 20:54:56 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-05 20:54:56 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-05 20:54:56 [INFO] Stopping server

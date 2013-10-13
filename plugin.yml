@@ -1,0 +1,25 @@
+name: Roach_1608 Shortcuts
+main: com.hl.Shortcuts
+version: 0.0.1
+commands:
+   c:
+      description: This is creative mode.
+      usage: /<command> [player]
+   s:
+      description: This is survival mode
+      usage: /<command> [player]
+   day:
+      description: This is time set to day
+      usage: /<command>
+   night:
+      description: This is time set to night
+      usage: /<command>
+   sun:
+      description: This is weather sun
+      usage: /<command>   
+   rain:
+      description: This is weather rain
+      usage: /<command>
+   ct:
+      description: this is custom teleport
+      usage: /<command>
